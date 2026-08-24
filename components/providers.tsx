@@ -5,13 +5,14 @@ import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/toast";
 import { queryClient } from "@/lib/query-client";
 import { useState } from "react";
+import { AuthProvider } from "@/app/providers/AuthProvider";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [client] = useState(() => queryClient);
   return (
     <QueryClientProvider client={client}>
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        {children}
+        <AuthProvider>{children}</AuthProvider>
         <Toaster />
       </ThemeProvider>
     </QueryClientProvider>
