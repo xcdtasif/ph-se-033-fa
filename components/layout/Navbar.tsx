@@ -159,7 +159,7 @@ export function Navbar() {
               render={
                 <Button
                   variant="ghost"
-                  size="icon"
+                  size="icon-lg"
                   className="md:hidden"
                   aria-label="Toggle menu"
                 />

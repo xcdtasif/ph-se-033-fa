@@ -46,11 +46,11 @@ export function Footer() {
             {/* Brand */}
             <div className="flex flex-col items-center text-center">
               <Logo href="/" size="sm" showText />
-              <p className="mt-4 text-base text-muted-foreground">
+              <p className="mt-2 max-w-sm text-base text-muted-foreground">
                 Find and list rental properties with ease. Connecting tenants
                 and landlords through a seamless marketplace experience.
               </p>
-              <div className="flex items-center gap-4 mt-6">
+              <div className="flex items-center gap-4 mt-2">
                 <a
                   href="#"
                   aria-label="Website"
@@ -99,7 +99,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="pb-8 text-center">
-            <p className="text-sm text-muted-foreground">
+            <p className="text-[10pt] text-muted-foreground">
               &copy; {currentYear} RentNest. All rights reserved.
             </p>
           </div>
@@ -164,7 +164,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="pb-8 text-center">
-            <p className="text-sm text-muted-foreground">
+            <p className="text-[10pt] text-muted-foreground">
               &copy; {currentYear} RentNest. All rights reserved.
             </p>
           </div>
@@ -233,7 +233,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="pb-8 text-center">
-            <p className="text-sm text-muted-foreground">
+            <p className="text-[10pt] text-muted-foreground">
               &copy; {currentYear} RentNest. All rights reserved.
             </p>
           </div>
